@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Red IS Bad is top brand from Poland. Their unique designs and quality are well known in whole Europe.  Red Is Bad rashguards will be soon available in United Kingdom."
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="Arial"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:layout_width="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="320dp"
+        android:src="@drawable/husar"
+         />
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

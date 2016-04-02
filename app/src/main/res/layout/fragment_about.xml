@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mzaboklicki_app.AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="450dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/husar"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RED IS BAD ™ is a Polish patriotic  brand  for people who value freedom and proud of our history.Our clothes are sewn in Poland since year 2012, all components are produced in our country."
+            android:id="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="Arial"/>
+
+    </RelativeLayout>
+</FrameLayout>
